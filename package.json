@@ -1,0 +1,21 @@
+{
+  "name": "voronoi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "^15.2.0",
+    "canvas": "^1.6.9",
+    "color": "^3.0.0",
+    "lodash": "^4.17.4",
+    "voronoi": "^1.0.0",
+    "watchify": "^3.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o build.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
