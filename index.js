@@ -9,7 +9,7 @@ const options = {
         alpha: 1,
         bounds: 0.15,
         cells: 200,
-        color: [ 41, 128, 185 ],
+        color: [ 170, 240, 209 ],
         highlight: {
             alpha: 0.7,
             content: "",
@@ -26,7 +26,7 @@ const options = {
 const canvas = document.getElementById( "canvas" );
 const containers = document.getElementsByClassName( 'container' );
 label( canvas, options );
-// Array.prototype.forEach.call(containers, main => {
-//     main.style.background = "url(" + canvas.toDataURL() + ")";
-// } )
+Array.prototype.forEach.call(containers, main => {
+    main.style.background = "url(" + canvas.toDataURL() + ")";
+} )
 canvas.style.display = 'none';
