@@ -14,7 +14,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify index.js -o build.js"
+    "build": "browserify index.js -o build.js",
+    "pdf": "wkhtmltopdf --page-size A4 -B 0 -L 0 -R 0 -T 0 --zoom 0.5 --dpi 300 --image-dpi 150 --image-quality 70 -O landscape index.html production.pdf"
   },
   "author": "",
   "license": "ISC"

@@ -9,7 +9,7 @@ const options = {
         alpha: 1,
         bounds: 0.15,
         cells: 200,
-        color: [ 41, 128, 185 ],
+        color: [ 243, 156, 18 ],
         highlight: {
             alpha: 0.7,
             content: "",

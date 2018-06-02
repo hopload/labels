@@ -74,10 +74,10 @@ module.exports = ( canvas, o ) => {
 function generateColorPalette( base ) {
     base = Color( base );
     const colors = [
+        Color( base ).rotate( 5 ),
+        Color( base ).rotate( 10 ),
         Color( base ).rotate( 15 ),
-        Color( base ).rotate( 30 ),
-        Color( base ).rotate( -15 ),
-        Color( base ).rotate( -30 )
+        Color( base ).rotate( 20 )
     ];
 
     return colors.map( x => x.rgb().array() );
